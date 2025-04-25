@@ -8,7 +8,7 @@ object CW2BasketApp extends App{
 
   //STORE DATA READ FROM FILE
   val foodData = readFile("data.txt")
-  println(foodData)
+  //println(foodData)
   //READ FILE
   def readFile(filename:String):Map[String,List[Int]]={
     var mapBuffer: Map[String, List[Int]] = Map()
